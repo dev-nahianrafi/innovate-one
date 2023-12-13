@@ -612,6 +612,8 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 200%;
     text-transform: capitalize;
     margin-bottom: 40px;
+    position: relative;
+    z-index: 222;
 }
 .counter_shape{
     position: absolute;
@@ -794,6 +796,10 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 600;
     line-height: 140%;
     text-transform: capitalize;
+}
+.project_btn{
+    position: relative;
+    z-index: 22;
 }
 .project_btn:hover .common_btn{
     background-color: var(--primary);
